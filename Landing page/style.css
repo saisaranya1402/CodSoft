@@ -1,0 +1,198 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 70vh;
+    background: linear-gradient(to right, #ff7e5f, #feb47b, #d6249f, #285AEB);
+    background-size: 200% 200%;
+    animation: gradientShift 8s ease-in-out infinite;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+h1 {
+    font-size: 4rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header .contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+}
+.header .contact-info div {
+    display: flex;
+    align-items: center;
+}
+.header .contact-info div i {
+    margin-right: 10px;
+}
+.header .contact-info div a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.header .contact-info div a:hover {
+    text-decoration: underline;
+}
+.header .contact-info .request-quote {
+    background: #ff4b2b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.header .contact-info .request-quote:hover {
+    background: #ff3a1a;
+}
+.navbar {
+    background: #333;
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+.navbar .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar .menu li {
+    margin-left: 20px;
+}
+.navbar .menu li a {
+    color: white;
+    text-decoration: none;
+}
+.navbar .menu li a:hover {
+    text-decoration: underline;
+}
+.hero {
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+.hero .buttons {
+    margin-top: 20px;
+}
+.hero .buttons a {
+    background: #ff4b2b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+.hero .buttons a:hover {
+    background: #ff3a1a;
+}
+.features {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+.features .feature {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+}
+.features .feature i {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.features .feature h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.features .feature p {
+    font-size: 16px;
+}
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+}
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.about p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.about .read-more {
+    background: #ff4b2b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.about .read-more:hover {
+    background: #ff3a1a;
+}
+.about .image {
+    margin-top: 20px;
+}
+.about .image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.services {
+    padding: 50px 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+}
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.services .service {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+}
+.services .service img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.services .service h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.services .service p {
+    font-size: 16px;
+}
